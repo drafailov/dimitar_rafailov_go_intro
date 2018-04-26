@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	gcd "github.com/drafailov/dimitar_rafailov_go_intro/gomath"
+	"github.com/drafailov/dimitar_rafailov_go_intro/cmd/mathdemo/gomath"
 )
 
 func main() {
@@ -12,5 +12,7 @@ func main() {
 	fmt.Print("Insert second number: ")
 	fmt.Scanln(&b)
 	fmt.Printf("gcd(%d,%d)= ", a, b)
-	fmt.Println(gcd.GCD(a, b))
+	fmt.Println(gomath.GCD(a, b))
+	fmt.Printf("lcm(%d,%d)= ", a, b)
+	fmt.Println(gomath.LCM(a, b))
 }
