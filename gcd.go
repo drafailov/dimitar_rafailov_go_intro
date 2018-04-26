@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	gcd "./divisor"
+	gcd "github.com/drafailov/dimitar_rafailov_go_intro/gomath"
 )
 
 func main() {
